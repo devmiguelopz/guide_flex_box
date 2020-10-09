@@ -1,0 +1,24 @@
+{
+  "name": "guide_flex_box",
+  "version": "1.0.0",
+  "description": "guide flex box using (html, css)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devmiguelopz/guide_flex_box.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "flexbox"
+  ],
+  "author": "devmiguelopz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devmiguelopz/guide_flex_box/issues"
+  },
+  "homepage": "https://github.com/devmiguelopz/guide_flex_box#readme"
+}
