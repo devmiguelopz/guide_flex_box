@@ -1,7 +1,7 @@
 # Guide Flexbox
 Guide flex box using (html, css).
 
-![screenshot](./assets/img/img_preview.png)
+![screenshot](./Preview.png)
 
 ## Built With
 - HTML, CSS
