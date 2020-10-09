@@ -1,0 +1,84 @@
+/* #region Container Main */
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  border: 3px solid brown;
+  background-color: lightslategray;
+  padding: 0.5rem;
+  width: 250px;
+  height: 250px;
+}
+
+.container-row {
+  flex-direction: row;
+}
+
+.container-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.container-column {
+  flex-direction: column;
+}
+
+.container-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.child {
+  width: 50px;
+  height: 50px;
+}
+
+.child1 {
+  background: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child2 {
+  background: lightsalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child3 {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.child>.text {
+  font-weight: bold;
+}  
+/* #endregion */
+
+/* #region Container Flex Direction - Parent */
+
+/* #endregion */
