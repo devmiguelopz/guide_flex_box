@@ -35,19 +35,50 @@
 .container-row {
   flex-direction: row;
 }
-.norow{
-  flex-wrap: nowrap;
+.container-column {
+  flex-direction: column;
+}
+.flex-start-row{
+  justify-content: flex-start;
+}
+.center-row{
+  justify-content: center;
+}
+.flex-end-row{
+  justify-content: flex-end;
+}
+.space-around-row{
+  justify-content: space-around;
+}
+.space-between-row{
+  justify-content: space-between;
 }
 
-.wrap{
-  flex-wrap: wrap;
+.space-evenly-row{
   justify-content: space-evenly;
 }
 
-.wrap-reverse{
-  flex-flow: row wrap-reverse;
+
+.flex-start-column{
+  justify-content: flex-start;
+}
+.center-column{
+  justify-content: center;
+}
+.flex-end-column{
+  justify-content: flex-end;
+}
+.space-around-column{
+  justify-content: space-around;
+}
+.space-between-column{
+  justify-content: space-between;
+}
+
+.space-evenly-column{
   justify-content: space-evenly;
 }
+
 
 .child {
   width: 50px;
@@ -56,7 +87,7 @@
 
 .child1 {
   background: lightgreen;
-  border:1px solid white;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +95,7 @@
 
 .child2 {
   background: lightsalmon;
-  border:1px solid white;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +103,7 @@
 
 .child3 {
   background: lightblue;
-  border:1px solid white;
+
   display: flex;
   justify-content: center;
   align-items: center;
