@@ -1,0 +1,7 @@
+new width = ( (flex grow / total flex grow) x free space) + width
+
+Variables	
+flex grow:	provided from css
+total flex:	need to calculate
+free space:	need to calculate
+width:	provided from css

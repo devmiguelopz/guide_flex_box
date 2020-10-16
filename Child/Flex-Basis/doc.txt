@@ -1,0 +1,6 @@
+new width = width - (shrink space x shrink ratio)
+
+Variables	
+width:	need to calculate
+shrink space:	need to calculate
+shrink ratio:	need to calculate
